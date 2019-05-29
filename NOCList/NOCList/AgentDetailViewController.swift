@@ -18,6 +18,7 @@ class AgentDetailViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        title = "Agent Detail"
         agentCoverName.text = agent.coverName
         agentRealName.text = agent.realName
         agentLevelNum.text = "\(agent.accessLevel)"

@@ -10,7 +10,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Agents-->
+        <!--List Table View Controller-->
         <scene sceneID="gc1-sl-Yk3">
             <objects>
                 <tableViewController id="Pe5-xI-77t" customClass="NOCListTableViewController" customModule="NOCList" customModuleProvider="target" sceneMemberID="viewController">
@@ -53,7 +53,9 @@
                             <outlet property="delegate" destination="Pe5-xI-77t" id="5Mw-QP-TAB"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Agents" id="w0R-TK-RLY"/>
+                    <navigationItem key="navigationItem" id="w0R-TK-RLY">
+                        <nil key="title"/>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xE1-Ea-Wdi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
